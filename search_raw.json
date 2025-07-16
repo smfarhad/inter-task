@@ -1,0 +1,4448 @@
+{
+  "groupedItineraryResponse": {
+    "version": "7.0.3",
+    "messages": [
+      {
+        "severity": "Info",
+        "type": "SERVER",
+        "code": "GCA14-ISELL-TN-00-2025-07-00-3KMJ",
+        "text": "27131"
+      },
+      {
+        "severity": "Info",
+        "type": "WORKERTHREAD",
+        "code": "TRANSACTIONID",
+        "text": "7584975975279413223"
+      },
+      { "severity": "Info", "type": "DRE", "code": "RULEID", "text": "21728" },
+      {
+        "severity": "Info",
+        "type": "DEFAULT",
+        "code": "RULEID",
+        "text": "25238"
+      },
+      {
+        "severity": "Error",
+        "type": "MIP",
+        "code": "PROCESS",
+        "text": "NO FARE FOR CLASS USED",
+        "numberOfOccurences": 3
+      },
+      {
+        "severity": "Info",
+        "type": "MIP",
+        "code": "MIP",
+        "shortCode": "MIP:5011",
+        "text": "NO FARE FOR CLASS USED"
+      }
+    ],
+    "statistics": { "itineraryCount": 5 },
+    "scheduleDescs": [
+      {
+        "id": 1,
+        "frequency": "S******",
+        "stopCount": 0,
+        "eTicketable": true,
+        "totalMilesFlown": 3675,
+        "elapsedTime": 440,
+        "departure": {
+          "airport": "KUL",
+          "city": "KUL",
+          "country": "MY",
+          "time": "02:55:00+08:00",
+          "terminal": "1"
+        },
+        "arrival": {
+          "airport": "DOH",
+          "city": "DOH",
+          "country": "QA",
+          "time": "05:15:00+03:00"
+        },
+        "carrier": {
+          "marketing": "MH",
+          "marketingFlightNumber": 164,
+          "operating": "MH",
+          "operatingFlightNumber": 164,
+          "alliances": "OW ",
+          "equipment": {
+            "code": "333",
+            "typeForFirstLeg": "W",
+            "typeForLastLeg": "W"
+          }
+        }
+      },
+      {
+        "id": 2,
+        "frequency": "SMTWTFS",
+        "stopCount": 0,
+        "eTicketable": true,
+        "totalMilesFlown": 1633,
+        "elapsedTime": 235,
+        "departure": {
+          "airport": "DAC",
+          "city": "DAC",
+          "country": "BD",
+          "time": "20:00:00+06:00",
+          "terminal": "2"
+        },
+        "arrival": {
+          "airport": "KUL",
+          "city": "KUL",
+          "country": "MY",
+          "time": "01:55:00+08:00",
+          "terminal": "1",
+          "dateAdjustment": 1
+        },
+        "carrier": {
+          "marketing": "BG",
+          "marketingFlightNumber": 386,
+          "operating": "BG",
+          "operatingFlightNumber": 386,
+          "equipment": {
+            "code": "738",
+            "typeForFirstLeg": "N",
+            "typeForLastLeg": "N"
+          }
+        }
+      },
+      {
+        "id": 3,
+        "frequency": "S******",
+        "stopCount": 0,
+        "eTicketable": true,
+        "totalMilesFlown": 438,
+        "elapsedTime": 95,
+        "departure": {
+          "airport": "MCT",
+          "city": "MCT",
+          "country": "OM",
+          "time": "13:00:00+04:00"
+        },
+        "arrival": {
+          "airport": "DOH",
+          "city": "DOH",
+          "country": "QA",
+          "time": "13:35:00+03:00"
+        },
+        "carrier": {
+          "marketing": "QR",
+          "marketingFlightNumber": 1127,
+          "operating": "QR",
+          "operatingFlightNumber": 1127,
+          "alliances": "OW ",
+          "equipment": {
+            "code": "359",
+            "typeForFirstLeg": "W",
+            "typeForLastLeg": "W"
+          }
+        }
+      },
+      {
+        "id": 4,
+        "frequency": "SMTWTFS",
+        "stopCount": 0,
+        "eTicketable": true,
+        "totalMilesFlown": 3675,
+        "elapsedTime": 440,
+        "departure": {
+          "airport": "KUL",
+          "city": "KUL",
+          "country": "MY",
+          "time": "09:35:00+08:00",
+          "terminal": "1"
+        },
+        "arrival": {
+          "airport": "DOH",
+          "city": "DOH",
+          "country": "QA",
+          "time": "11:55:00+03:00"
+        },
+        "carrier": {
+          "marketing": "MH",
+          "marketingFlightNumber": 9052,
+          "operating": "QR",
+          "operatingFlightNumber": 845,
+          "disclosure": "QR",
+          "alliances": "OW ",
+          "equipment": {
+            "code": "77W",
+            "typeForFirstLeg": "W",
+            "typeForLastLeg": "W"
+          }
+        }
+      },
+      {
+        "id": 5,
+        "frequency": "S******",
+        "stopCount": 0,
+        "eTicketable": true,
+        "totalMilesFlown": 438,
+        "elapsedTime": 95,
+        "departure": {
+          "airport": "MCT",
+          "city": "MCT",
+          "country": "OM",
+          "time": "05:40:00+04:00"
+        },
+        "arrival": {
+          "airport": "DOH",
+          "city": "DOH",
+          "country": "QA",
+          "time": "06:15:00+03:00"
+        },
+        "carrier": {
+          "marketing": "QR",
+          "marketingFlightNumber": 1149,
+          "operating": "QR",
+          "operatingFlightNumber": 1149,
+          "alliances": "OW ",
+          "equipment": {
+            "code": "351",
+            "typeForFirstLeg": "W",
+            "typeForLastLeg": "W"
+          }
+        }
+      },
+      {
+        "id": 6,
+        "frequency": "**T**FS",
+        "stopCount": 1,
+        "eTicketable": true,
+        "totalMilesFlown": 2274,
+        "elapsedTime": 405,
+        "departure": {
+          "airport": "DAC",
+          "city": "DAC",
+          "country": "BD",
+          "time": "20:00:00+06:00"
+        },
+        "arrival": {
+          "airport": "MCT",
+          "city": "MCT",
+          "country": "OM",
+          "time": "00:45:00+04:00",
+          "dateAdjustment": 1
+        },
+        "carrier": {
+          "marketing": "BG",
+          "marketingFlightNumber": 121,
+          "operating": "BG",
+          "operatingFlightNumber": 121,
+          "equipment": {
+            "code": "788",
+            "typeForFirstLeg": "W",
+            "typeForLastLeg": "W"
+          }
+        },
+        "hiddenStops": [
+          {
+            "airport": "CGP",
+            "city": "CGP",
+            "country": "BD",
+            "arrivalTime": "20:45:00+06:00",
+            "departureTime": "21:45:00+06:00",
+            "airMiles": 2135,
+            "elapsedTime": 45,
+            "elapsedLayoverTime": 60,
+            "equipment": "788"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "frequency": "******S",
+        "stopCount": 1,
+        "eTicketable": true,
+        "totalMilesFlown": 2688,
+        "elapsedTime": 425,
+        "departure": {
+          "airport": "DAC",
+          "city": "DAC",
+          "country": "BD",
+          "time": "18:25:00+06:00",
+          "terminal": "1"
+        },
+        "arrival": {
+          "airport": "DOH",
+          "city": "DOH",
+          "country": "QA",
+          "time": "22:30:00+03:00"
+        },
+        "carrier": {
+          "marketing": "BS",
+          "marketingFlightNumber": 333,
+          "operating": "BS",
+          "operatingFlightNumber": 333,
+          "equipment": {
+            "code": "738",
+            "typeForFirstLeg": "N",
+            "typeForLastLeg": "N"
+          }
+        },
+        "hiddenStops": [
+          {
+            "airport": "CGP",
+            "city": "CGP",
+            "country": "BD",
+            "arrivalTime": "19:20:00+06:00",
+            "departureTime": "20:10:00+06:00",
+            "airMiles": 2549,
+            "elapsedTime": 55,
+            "elapsedLayoverTime": 50,
+            "equipment": "738"
+          }
+        ]
+      }
+    ],
+    "taxDescs": [
+      {
+        "id": 1,
+        "code": "I2",
+        "amount": 320,
+        "currency": "BDT",
+        "description": "SECURITY FEE",
+        "publishedAmount": 1,
+        "publishedCurrency": "OMR",
+        "station": "MCT",
+        "country": "OM"
+      },
+      {
+        "id": 2,
+        "code": "S6",
+        "amount": 704,
+        "currency": "BDT",
+        "description": "INFRASTRUCTURE CHARGE",
+        "publishedAmount": 2.2,
+        "publishedCurrency": "OMR",
+        "station": "MCT",
+        "country": "OM"
+      },
+      {
+        "id": 3,
+        "code": "UT3",
+        "amount": 4000,
+        "currency": "BDT",
+        "description": "TRAVEL TAX",
+        "publishedAmount": 4000,
+        "publishedCurrency": "BDT",
+        "station": "DAC",
+        "country": "BD"
+      },
+      {
+        "id": 4,
+        "code": "MY3",
+        "amount": 1213,
+        "currency": "BDT",
+        "description": "PASSENGER SERVICE AND SECURITY CHARGE",
+        "publishedAmount": 42,
+        "publishedCurrency": "MYR",
+        "station": "KUL",
+        "country": "MY"
+      },
+      {
+        "id": 5,
+        "code": "PZ2",
+        "amount": 252,
+        "currency": "BDT",
+        "description": "PASSENGER SERVICE CHARGE ARRIVALS",
+        "publishedAmount": 2.05,
+        "publishedCurrency": "USD",
+        "station": "KUL",
+        "country": "QA"
+      },
+      {
+        "id": 6,
+        "code": "OM2",
+        "amount": 320,
+        "currency": "BDT",
+        "description": "AIRPORT TAX",
+        "publishedAmount": 1,
+        "publishedCurrency": "OMR",
+        "station": "MCT",
+        "country": "OM"
+      },
+      {
+        "id": 7,
+        "code": "P8",
+        "amount": 1226,
+        "currency": "BDT",
+        "description": "PASSENGER SECURITY FEE",
+        "publishedAmount": 10,
+        "publishedCurrency": "USD",
+        "station": "DAC",
+        "country": "BD"
+      },
+      {
+        "id": 8,
+        "code": "P7",
+        "amount": 1226,
+        "currency": "BDT",
+        "description": "AIRPORT DEVELOPMENT FEE",
+        "publishedAmount": 10,
+        "publishedCurrency": "USD",
+        "station": "DAC",
+        "country": "BD"
+      },
+      {
+        "id": 9,
+        "code": "PZ2",
+        "amount": 252,
+        "currency": "BDT",
+        "description": "PASSENGER SERVICE CHARGE ARRIVALS",
+        "publishedAmount": 2.05,
+        "publishedCurrency": "USD",
+        "station": "DAC",
+        "country": "QA"
+      },
+      {
+        "id": 10,
+        "code": "OW2",
+        "amount": 2500,
+        "currency": "BDT",
+        "description": "DOMESTIC AND INTERNATIONAL EXCISE DUTY TAX",
+        "publishedAmount": 2500,
+        "publishedCurrency": "BDT",
+        "station": "DAC",
+        "country": "BD"
+      },
+      {
+        "id": 11,
+        "code": "E5",
+        "amount": 443,
+        "currency": "BDT",
+        "description": "VALUE ADDED TAX",
+        "publishedAmount": 443,
+        "publishedCurrency": "BDT",
+        "station": "DAC",
+        "country": "BD"
+      },
+      {
+        "id": 12,
+        "code": "E5",
+        "amount": 368,
+        "currency": "BDT",
+        "description": "VALUE ADDED TAX",
+        "publishedAmount": 368,
+        "publishedCurrency": "BDT",
+        "station": "DAC",
+        "country": "BD"
+      },
+      {
+        "id": 13,
+        "code": "YQF",
+        "amount": 18387,
+        "currency": "BDT",
+        "description": "SERVICE FEE - CARRIER-IMPOSED FUEL",
+        "publishedAmount": 150,
+        "publishedCurrency": "USD",
+        "station": "KUL"
+      },
+      {
+        "id": 14,
+        "code": "BD",
+        "amount": 500,
+        "currency": "BDT",
+        "description": "EMBARKATION FEE",
+        "publishedAmount": 500,
+        "publishedCurrency": "BDT",
+        "station": "DAC",
+        "country": "BD"
+      },
+      {
+        "id": 15,
+        "code": "PZ2",
+        "amount": 252,
+        "currency": "BDT",
+        "description": "PASSENGER SERVICE CHARGE ARRIVALS",
+        "publishedAmount": 2.05,
+        "publishedCurrency": "USD",
+        "station": "MCT",
+        "country": "QA"
+      }
+    ],
+    "taxSummaryDescs": [
+      {
+        "id": 1,
+        "code": "I2",
+        "amount": 320,
+        "currency": "BDT",
+        "description": "SECURITY FEE",
+        "publishedAmount": 1,
+        "publishedCurrency": "OMR",
+        "station": "MCT",
+        "country": "OM"
+      },
+      {
+        "id": 2,
+        "code": "S6",
+        "amount": 704,
+        "currency": "BDT",
+        "description": "INFRASTRUCTURE CHARGE",
+        "publishedAmount": 2.2,
+        "publishedCurrency": "OMR",
+        "station": "MCT",
+        "country": "OM"
+      },
+      {
+        "id": 3,
+        "code": "UT3",
+        "amount": 4000,
+        "currency": "BDT",
+        "description": "TRAVEL TAX",
+        "publishedAmount": 4000,
+        "publishedCurrency": "BDT",
+        "station": "DAC",
+        "country": "BD"
+      },
+      {
+        "id": 4,
+        "code": "MY3",
+        "amount": 1213,
+        "currency": "BDT",
+        "description": "PASSENGER SERVICE AND SECURITY CHARGE",
+        "publishedAmount": 42,
+        "publishedCurrency": "MYR",
+        "station": "KUL",
+        "country": "MY"
+      },
+      {
+        "id": 5,
+        "code": "PZ2",
+        "amount": 252,
+        "currency": "BDT",
+        "description": "PASSENGER SERVICE CHARGE ARRIVALS",
+        "publishedAmount": 2.05,
+        "publishedCurrency": "USD",
+        "station": "KUL",
+        "country": "QA"
+      },
+      {
+        "id": 6,
+        "code": "E5",
+        "amount": 443,
+        "currency": "BDT",
+        "description": "VALUE ADDED TAX",
+        "publishedAmount": 0.15,
+        "publishedCurrency": "BDT",
+        "station": "DAC",
+        "country": "BD"
+      },
+      {
+        "id": 7,
+        "code": "OM2",
+        "amount": 320,
+        "currency": "BDT",
+        "description": "AIRPORT TAX",
+        "publishedAmount": 1,
+        "publishedCurrency": "OMR",
+        "station": "MCT",
+        "country": "OM"
+      },
+      {
+        "id": 8,
+        "code": "P8",
+        "amount": 1226,
+        "currency": "BDT",
+        "description": "PASSENGER SECURITY FEE",
+        "publishedAmount": 10,
+        "publishedCurrency": "USD",
+        "station": "DAC",
+        "country": "BD"
+      },
+      {
+        "id": 9,
+        "code": "P7",
+        "amount": 1226,
+        "currency": "BDT",
+        "description": "AIRPORT DEVELOPMENT FEE",
+        "publishedAmount": 10,
+        "publishedCurrency": "USD",
+        "station": "DAC",
+        "country": "BD"
+      },
+      {
+        "id": 10,
+        "code": "PZ2",
+        "amount": 252,
+        "currency": "BDT",
+        "description": "PASSENGER SERVICE CHARGE ARRIVALS",
+        "publishedAmount": 2.05,
+        "publishedCurrency": "USD",
+        "station": "DAC",
+        "country": "QA"
+      },
+      {
+        "id": 11,
+        "code": "OW2",
+        "amount": 2500,
+        "currency": "BDT",
+        "description": "DOMESTIC AND INTERNATIONAL EXCISE DUTY TAX",
+        "publishedAmount": 2500,
+        "publishedCurrency": "BDT",
+        "station": "DAC",
+        "country": "BD"
+      },
+      {
+        "id": 12,
+        "code": "E5",
+        "amount": 368,
+        "currency": "BDT",
+        "description": "VALUE ADDED TAX",
+        "publishedAmount": 0.15,
+        "publishedCurrency": "BDT",
+        "station": "DAC",
+        "country": "BD"
+      },
+      {
+        "id": 13,
+        "code": "YQF",
+        "amount": 18387,
+        "currency": "BDT",
+        "description": "SERVICE FEE - CARRIER-IMPOSED FUEL",
+        "publishedAmount": 150,
+        "publishedCurrency": "USD",
+        "station": "KUL"
+      },
+      {
+        "id": 14,
+        "code": "BD",
+        "amount": 500,
+        "currency": "BDT",
+        "description": "EMBARKATION FEE",
+        "publishedAmount": 500,
+        "publishedCurrency": "BDT",
+        "station": "DAC",
+        "country": "BD"
+      },
+      {
+        "id": 15,
+        "code": "PZ2",
+        "amount": 252,
+        "currency": "BDT",
+        "description": "PASSENGER SERVICE CHARGE ARRIVALS",
+        "publishedAmount": 2.05,
+        "publishedCurrency": "USD",
+        "station": "MCT",
+        "country": "QA"
+      }
+    ],
+    "fareComponentDescs": [
+      {
+        "id": 1,
+        "governingCarrier": "MH",
+        "fareAmount": 94.87,
+        "fareCurrency": "NUC",
+        "fareBasisCode": "MFLOWMYIN",
+        "farePassengerType": "INF",
+        "publishedFareAmount": 403,
+        "publishedFareCurrency": "MYR",
+        "oneWayFare": true,
+        "directionality": "FROM",
+        "direction": "EH",
+        "notValidBefore": "2025-07-13",
+        "notValidAfter": "2025-07-13",
+        "applicablePricingCategories": "3 4 5 6 7 8 9 10 11 12 15 16 18 19",
+        "vendorCode": "ATP",
+        "fareTypeBitmap": "01",
+        "fareType": "ER",
+        "fareTariff": "33",
+        "fareRule": "MY41",
+        "cabinCode": "Y",
+        "segments": [
+          {
+            "segment": {
+              "surcharges": [
+                {
+                  "amount": 30,
+                  "currency": "NUC",
+                  "description": "MISCELLANEOUS/OTHER",
+                  "type": "Q"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "governingCarrier": "BS",
+        "fareAmount": 75,
+        "fareCurrency": "NUC",
+        "fareBasisCode": "KBDQAO/IN7575",
+        "farePassengerType": "INF",
+        "ticketDesignator": "IN7575",
+        "publishedFareAmount": 75,
+        "publishedFareCurrency": "USD",
+        "oneWayFare": true,
+        "directionality": "FROM",
+        "direction": "EH",
+        "notValidBefore": "2025-07-12",
+        "notValidAfter": "2025-07-12",
+        "applicablePricingCategories": "4 5 7 8 10 14 15 16 18 19",
+        "vendorCode": "ATP",
+        "fareTypeBitmap": "01",
+        "fareType": "ER",
+        "fareTariff": "33",
+        "fareRule": "ME11",
+        "cabinCode": "Y",
+        "segments": [{ "segment": {} }]
+      },
+      {
+        "id": 3,
+        "governingCarrier": "MH",
+        "fareAmount": 104.61,
+        "fareCurrency": "NUC",
+        "fareBasisCode": "HFLOWMYIN",
+        "farePassengerType": "INF",
+        "publishedFareAmount": 444,
+        "publishedFareCurrency": "MYR",
+        "oneWayFare": true,
+        "directionality": "FROM",
+        "direction": "EH",
+        "notValidBefore": "2025-07-13",
+        "notValidAfter": "2025-07-13",
+        "applicablePricingCategories": "3 4 5 6 7 8 9 10 11 12 15 16 18 19",
+        "vendorCode": "ATP",
+        "fareTypeBitmap": "01",
+        "fareType": "ER",
+        "fareTariff": "33",
+        "fareRule": "MY41",
+        "cabinCode": "Y",
+        "segments": [
+          {
+            "segment": {
+              "surcharges": [
+                {
+                  "amount": 30,
+                  "currency": "NUC",
+                  "description": "MISCELLANEOUS/OTHER",
+                  "type": "Q"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "governingCarrier": "MH",
+        "fareAmount": 1046.12,
+        "fareCurrency": "NUC",
+        "fareBasisCode": "HFLOWMY",
+        "farePassengerType": "ADT",
+        "publishedFareAmount": 4436,
+        "publishedFareCurrency": "MYR",
+        "oneWayFare": true,
+        "directionality": "FROM",
+        "direction": "EH",
+        "notValidBefore": "2025-07-13",
+        "notValidAfter": "2025-07-13",
+        "applicablePricingCategories": "3 4 5 6 7 8 9 10 11 12 15 16 18",
+        "vendorCode": "ATP",
+        "fareTypeBitmap": "00",
+        "fareType": "ER",
+        "fareTariff": "33",
+        "fareRule": "MY41",
+        "cabinCode": "Y",
+        "segments": [
+          {
+            "segment": {
+              "surcharges": [
+                {
+                  "amount": 30,
+                  "currency": "NUC",
+                  "description": "MISCELLANEOUS/OTHER",
+                  "type": "Q"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "governingCarrier": "BG",
+        "fareAmount": 1512,
+        "fareCurrency": "NUC",
+        "fareBasisCode": "YOW",
+        "farePassengerType": "ADT",
+        "publishedFareAmount": 1512,
+        "publishedFareCurrency": "USD",
+        "mileageSurcharge": 0,
+        "mileage": true,
+        "oneWayFare": true,
+        "directionality": "FROM",
+        "direction": "EH",
+        "notValidAfter": "2026-07-12",
+        "applicablePricingCategories": "1 7 8 9 10",
+        "vendorCode": "ATP",
+        "fareTypeBitmap": "00",
+        "fareType": "EU",
+        "fareTariff": "33",
+        "fareRule": "2200",
+        "cabinCode": "Y",
+        "segments": [{ "segment": {} }, { "segment": {} }]
+      },
+      {
+        "id": 6,
+        "governingCarrier": "BG",
+        "fareAmount": 151.2,
+        "fareCurrency": "NUC",
+        "fareBasisCode": "YOW/IN90",
+        "farePassengerType": "INF",
+        "ticketDesignator": "IN90",
+        "publishedFareAmount": 151,
+        "publishedFareCurrency": "USD",
+        "mileageSurcharge": 0,
+        "mileage": true,
+        "oneWayFare": true,
+        "directionality": "FROM",
+        "direction": "EH",
+        "notValidAfter": "2026-07-12",
+        "applicablePricingCategories": "1 7 8 9 10 19",
+        "vendorCode": "ATP",
+        "fareTypeBitmap": "01",
+        "fareType": "EU",
+        "fareTariff": "33",
+        "fareRule": "2200",
+        "cabinCode": "Y",
+        "segments": [{ "segment": {} }, { "segment": {} }]
+      },
+      {
+        "id": 7,
+        "governingCarrier": "BG",
+        "fareAmount": 1100,
+        "fareCurrency": "NUC",
+        "fareBasisCode": "Y",
+        "farePassengerType": "ADT",
+        "publishedFareAmount": 1100,
+        "publishedFareCurrency": "USD",
+        "mileageSurcharge": 0,
+        "mileage": true,
+        "oneWayFare": true,
+        "directionality": "FROM",
+        "direction": "EH",
+        "notValidAfter": "2026-07-12",
+        "applicablePricingCategories": "4 9 10",
+        "vendorCode": "ATP",
+        "fareTypeBitmap": "00",
+        "fareType": "ECF",
+        "fareTariff": "8",
+        "fareRule": "0001",
+        "cabinCode": "Y",
+        "segments": [{ "segment": {} }]
+      },
+      {
+        "id": 8,
+        "governingCarrier": "BG",
+        "fareAmount": 110,
+        "fareCurrency": "NUC",
+        "fareBasisCode": "YIN",
+        "farePassengerType": "INF",
+        "publishedFareAmount": 110,
+        "publishedFareCurrency": "USD",
+        "mileageSurcharge": 0,
+        "mileage": true,
+        "oneWayFare": true,
+        "directionality": "FROM",
+        "direction": "EH",
+        "notValidAfter": "2026-07-12",
+        "applicablePricingCategories": "4 9 10 19",
+        "vendorCode": "ATP",
+        "fareTypeBitmap": "01",
+        "fareType": "ECF",
+        "fareTariff": "8",
+        "fareRule": "0001",
+        "cabinCode": "Y",
+        "segments": [{ "segment": {} }]
+      },
+      {
+        "id": 9,
+        "governingCarrier": "MH",
+        "fareAmount": 948.73,
+        "fareCurrency": "NUC",
+        "fareBasisCode": "MFLOWMY",
+        "farePassengerType": "ADT",
+        "publishedFareAmount": 4023,
+        "publishedFareCurrency": "MYR",
+        "oneWayFare": true,
+        "directionality": "FROM",
+        "direction": "EH",
+        "notValidBefore": "2025-07-13",
+        "notValidAfter": "2025-07-13",
+        "applicablePricingCategories": "3 4 5 6 7 8 9 10 11 12 15 16 18",
+        "vendorCode": "ATP",
+        "fareTypeBitmap": "00",
+        "fareType": "ER",
+        "fareTariff": "33",
+        "fareRule": "MY41",
+        "cabinCode": "Y",
+        "segments": [
+          {
+            "segment": {
+              "surcharges": [
+                {
+                  "amount": 30,
+                  "currency": "NUC",
+                  "description": "MISCELLANEOUS/OTHER",
+                  "type": "Q"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "governingCarrier": "BS",
+        "fareAmount": 300,
+        "fareCurrency": "NUC",
+        "fareBasisCode": "KBDQAO",
+        "farePassengerType": "ADT",
+        "publishedFareAmount": 300,
+        "publishedFareCurrency": "USD",
+        "oneWayFare": true,
+        "directionality": "FROM",
+        "direction": "EH",
+        "notValidBefore": "2025-07-12",
+        "notValidAfter": "2025-07-12",
+        "applicablePricingCategories": "4 5 7 8 10 14 15 16 18",
+        "vendorCode": "ATP",
+        "fareTypeBitmap": "00",
+        "fareType": "ER",
+        "fareTariff": "33",
+        "fareRule": "ME11",
+        "cabinCode": "Y",
+        "segments": [{ "segment": {} }]
+      }
+    ],
+    "baggageAllowanceDescs": [
+      { "id": 1, "weight": 30, "unit": "kg" },
+      { "id": 2, "weight": 10, "unit": "kg" },
+      { "id": 3, "weight": 20, "unit": "kg" },
+      { "id": 4, "weight": 10, "unit": "kg" },
+      { "id": 5, "weight": 10, "unit": "kg" },
+      { "id": 6, "weight": 20, "unit": "kg" }
+    ],
+    "legDescs": [
+      {
+        "id": 1,
+        "elapsedTime": 1135,
+        "schedules": [{ "ref": 2 }, { "ref": 4, "departureDateAdjustment": 1 }]
+      },
+      { "id": 2, "elapsedTime": 425, "schedules": [{ "ref": 7 }] },
+      {
+        "id": 3,
+        "elapsedTime": 735,
+        "schedules": [{ "ref": 2 }, { "ref": 1, "departureDateAdjustment": 1 }]
+      },
+      {
+        "id": 4,
+        "elapsedTime": 1235,
+        "schedules": [{ "ref": 6 }, { "ref": 3, "departureDateAdjustment": 1 }]
+      },
+      {
+        "id": 5,
+        "elapsedTime": 795,
+        "schedules": [{ "ref": 6 }, { "ref": 5, "departureDateAdjustment": 1 }]
+      }
+    ],
+    "itineraryGroups": [
+      {
+        "groupDescription": {
+          "legDescriptions": [
+            {
+              "departureDate": "2025-07-12",
+              "departureLocation": "DAC",
+              "arrivalLocation": "DOH"
+            }
+          ]
+        },
+        "itineraries": [
+          {
+            "id": 1,
+            "pricingSource": "ADVJR1",
+            "legs": [{ "ref": 2 }],
+            "pricingInformation": [
+              {
+                "pricingSubsource": "MIP",
+                "distributionModel": "ATPCO",
+                "fare": {
+                  "validatingCarrierCode": "BS",
+                  "simultaneousReservation": true,
+                  "vita": true,
+                  "eTicketable": true,
+                  "lastTicketDate": "2025-07-12",
+                  "lastTicketTime": "18:25",
+                  "governingCarriers": "BS",
+                  "passengerInfoList": [
+                    {
+                      "passengerInfo": {
+                        "passengerType": "ADT",
+                        "passengerNumber": 2,
+                        "nonRefundable": false,
+                        "fareComponents": [
+                          {
+                            "ref": 10,
+                            "beginAirport": "DAC",
+                            "endAirport": "DOH",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "K",
+                                  "cabinCode": "Y",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "taxes": [
+                          { "ref": 14 },
+                          { "ref": 11 },
+                          { "ref": 10 },
+                          { "ref": 8 },
+                          { "ref": 7 },
+                          { "ref": 3 },
+                          { "ref": 9 }
+                        ],
+                        "taxSummaries": [
+                          { "ref": 14 },
+                          { "ref": 3 },
+                          { "ref": 11 },
+                          { "ref": 6 },
+                          { "ref": 10 },
+                          { "ref": 9 },
+                          { "ref": 8 }
+                        ],
+                        "currencyConversion": {
+                          "from": "USD",
+                          "to": "BDT",
+                          "exchangeRateUsed": 122.58
+                        },
+                        "passengerTotalFare": {
+                          "totalFare": 46921,
+                          "totalTaxAmount": 10147,
+                          "currency": "BDT",
+                          "baseFareAmount": 300,
+                          "baseFareCurrency": "USD",
+                          "equivalentAmount": 36774,
+                          "equivalentCurrency": "BDT",
+                          "constructionAmount": 300,
+                          "constructionCurrency": "NUC",
+                          "commissionPercentage": 0,
+                          "commissionAmount": 0,
+                          "exchangeRateOne": 1
+                        },
+                        "baggageInformation": [
+                          {
+                            "provisionType": "A",
+                            "airlineCode": "BS",
+                            "segments": [{ "id": 0 }],
+                            "allowance": { "ref": 3 }
+                          }
+                        ],
+                        "penaltiesInfo": {
+                          "penalties": [
+                            {
+                              "type": "Exchange",
+                              "applicability": "Before",
+                              "changeable": true,
+                              "amount": 6129,
+                              "currency": "BDT",
+                              "minPenalty": {
+                                "amount": 3065,
+                                "currency": "BDT"
+                              }
+                            },
+                            {
+                              "type": "Exchange",
+                              "applicability": "After",
+                              "changeable": false
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "Before",
+                              "refundable": true,
+                              "amount": 13484,
+                              "currency": "BDT",
+                              "minPenalty": {
+                                "amount": 6129,
+                                "currency": "BDT"
+                              }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "After",
+                              "refundable": false
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "passengerInfo": {
+                        "passengerType": "INF",
+                        "passengerNumber": 1,
+                        "nonRefundable": false,
+                        "fareComponents": [
+                          {
+                            "ref": 2,
+                            "beginAirport": "DAC",
+                            "endAirport": "DOH",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "K",
+                                  "cabinCode": "Y",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "taxes": [{ "ref": 12 }, { "ref": 8 }, { "ref": 7 }],
+                        "taxSummaries": [
+                          { "ref": 12 },
+                          { "ref": 9 },
+                          { "ref": 8 }
+                        ],
+                        "currencyConversion": {
+                          "from": "USD",
+                          "to": "BDT",
+                          "exchangeRateUsed": 122.58
+                        },
+                        "passengerTotalFare": {
+                          "totalFare": 12014,
+                          "totalTaxAmount": 2820,
+                          "currency": "BDT",
+                          "baseFareAmount": 75,
+                          "baseFareCurrency": "USD",
+                          "equivalentAmount": 9194,
+                          "equivalentCurrency": "BDT",
+                          "constructionAmount": 75,
+                          "constructionCurrency": "NUC",
+                          "commissionPercentage": 0,
+                          "commissionAmount": 0,
+                          "exchangeRateOne": 1
+                        },
+                        "baggageInformation": [
+                          {
+                            "provisionType": "A",
+                            "airlineCode": "BS",
+                            "segments": [{ "id": 0 }],
+                            "allowance": { "ref": 4 }
+                          }
+                        ],
+                        "penaltiesInfo": {
+                          "penalties": [
+                            {
+                              "type": "Exchange",
+                              "applicability": "Before",
+                              "changeable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Exchange",
+                              "applicability": "After",
+                              "changeable": false
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "Before",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "After",
+                              "refundable": false
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
+                  "totalFare": {
+                    "totalPrice": 105856,
+                    "totalTaxAmount": 23114,
+                    "currency": "BDT",
+                    "baseFareAmount": 675,
+                    "baseFareCurrency": "USD",
+                    "constructionAmount": 675,
+                    "constructionCurrency": "NUC",
+                    "equivalentAmount": 82742,
+                    "equivalentCurrency": "BDT"
+                  }
+                }
+              },
+              {
+                "pricingSubsource": "MIP",
+                "distributionModel": "ATPCO",
+                "flexibleFare": 1,
+                "fare": {
+                  "validatingCarrierCode": "BS",
+                  "simultaneousReservation": true,
+                  "vita": true,
+                  "eTicketable": true,
+                  "lastTicketDate": "2025-07-12",
+                  "lastTicketTime": "18:25",
+                  "governingCarriers": "BS",
+                  "passengerInfoList": [
+                    {
+                      "passengerInfo": {
+                        "passengerType": "ADT",
+                        "passengerNumber": 2,
+                        "nonRefundable": false,
+                        "fareComponents": [
+                          {
+                            "ref": 10,
+                            "beginAirport": "DAC",
+                            "endAirport": "DOH",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "K",
+                                  "cabinCode": "Y",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "taxes": [
+                          { "ref": 14 },
+                          { "ref": 11 },
+                          { "ref": 10 },
+                          { "ref": 8 },
+                          { "ref": 7 },
+                          { "ref": 3 },
+                          { "ref": 9 }
+                        ],
+                        "taxSummaries": [
+                          { "ref": 14 },
+                          { "ref": 3 },
+                          { "ref": 11 },
+                          { "ref": 6 },
+                          { "ref": 10 },
+                          { "ref": 9 },
+                          { "ref": 8 }
+                        ],
+                        "currencyConversion": {
+                          "from": "USD",
+                          "to": "BDT",
+                          "exchangeRateUsed": 122.58
+                        },
+                        "passengerTotalFare": {
+                          "totalFare": 46921,
+                          "totalTaxAmount": 10147,
+                          "currency": "BDT",
+                          "baseFareAmount": 300,
+                          "baseFareCurrency": "USD",
+                          "equivalentAmount": 36774,
+                          "equivalentCurrency": "BDT",
+                          "constructionAmount": 300,
+                          "constructionCurrency": "NUC",
+                          "commissionPercentage": 0,
+                          "commissionAmount": 0,
+                          "exchangeRateOne": 1
+                        },
+                        "baggageInformation": [
+                          {
+                            "provisionType": "A",
+                            "airlineCode": "BS",
+                            "segments": [{ "id": 0 }],
+                            "allowance": { "ref": 3 }
+                          }
+                        ],
+                        "penaltiesInfo": {
+                          "penalties": [
+                            {
+                              "type": "Exchange",
+                              "applicability": "Before",
+                              "changeable": true,
+                              "amount": 6129,
+                              "currency": "BDT",
+                              "minPenalty": {
+                                "amount": 3065,
+                                "currency": "BDT"
+                              }
+                            },
+                            {
+                              "type": "Exchange",
+                              "applicability": "After",
+                              "changeable": false
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "Before",
+                              "refundable": true,
+                              "amount": 13484,
+                              "currency": "BDT",
+                              "minPenalty": {
+                                "amount": 6129,
+                                "currency": "BDT"
+                              }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "After",
+                              "refundable": false
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "passengerInfo": {
+                        "passengerType": "INF",
+                        "passengerNumber": 1,
+                        "nonRefundable": false,
+                        "fareComponents": [
+                          {
+                            "ref": 2,
+                            "beginAirport": "DAC",
+                            "endAirport": "DOH",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "K",
+                                  "cabinCode": "Y",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "taxes": [{ "ref": 12 }, { "ref": 8 }, { "ref": 7 }],
+                        "taxSummaries": [
+                          { "ref": 12 },
+                          { "ref": 9 },
+                          { "ref": 8 }
+                        ],
+                        "currencyConversion": {
+                          "from": "USD",
+                          "to": "BDT",
+                          "exchangeRateUsed": 122.58
+                        },
+                        "passengerTotalFare": {
+                          "totalFare": 12014,
+                          "totalTaxAmount": 2820,
+                          "currency": "BDT",
+                          "baseFareAmount": 75,
+                          "baseFareCurrency": "USD",
+                          "equivalentAmount": 9194,
+                          "equivalentCurrency": "BDT",
+                          "constructionAmount": 75,
+                          "constructionCurrency": "NUC",
+                          "commissionPercentage": 0,
+                          "commissionAmount": 0,
+                          "exchangeRateOne": 1
+                        },
+                        "baggageInformation": [
+                          {
+                            "provisionType": "A",
+                            "airlineCode": "BS",
+                            "segments": [{ "id": 0 }],
+                            "allowance": { "ref": 4 }
+                          }
+                        ],
+                        "penaltiesInfo": {
+                          "penalties": [
+                            {
+                              "type": "Exchange",
+                              "applicability": "Before",
+                              "changeable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Exchange",
+                              "applicability": "After",
+                              "changeable": false
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "Before",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "After",
+                              "refundable": false
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
+                  "totalFare": {
+                    "totalPrice": 105856,
+                    "totalTaxAmount": 23114,
+                    "currency": "BDT",
+                    "baseFareAmount": 675,
+                    "baseFareCurrency": "USD",
+                    "constructionAmount": 675,
+                    "constructionCurrency": "NUC",
+                    "equivalentAmount": 82742,
+                    "equivalentCurrency": "BDT"
+                  }
+                }
+              },
+              {
+                "pricingSubsource": "MIP",
+                "distributionModel": "ATPCO",
+                "flexibleFare": 2,
+                "fare": {
+                  "validatingCarrierCode": "BS",
+                  "simultaneousReservation": true,
+                  "vita": true,
+                  "eTicketable": true,
+                  "lastTicketDate": "2025-07-12",
+                  "lastTicketTime": "18:25",
+                  "governingCarriers": "BS",
+                  "passengerInfoList": [
+                    {
+                      "passengerInfo": {
+                        "passengerType": "ADT",
+                        "passengerNumber": 2,
+                        "nonRefundable": false,
+                        "fareComponents": [
+                          {
+                            "ref": 10,
+                            "beginAirport": "DAC",
+                            "endAirport": "DOH",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "K",
+                                  "cabinCode": "Y",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "taxes": [
+                          { "ref": 14 },
+                          { "ref": 11 },
+                          { "ref": 10 },
+                          { "ref": 8 },
+                          { "ref": 7 },
+                          { "ref": 3 },
+                          { "ref": 9 }
+                        ],
+                        "taxSummaries": [
+                          { "ref": 14 },
+                          { "ref": 3 },
+                          { "ref": 11 },
+                          { "ref": 6 },
+                          { "ref": 10 },
+                          { "ref": 9 },
+                          { "ref": 8 }
+                        ],
+                        "currencyConversion": {
+                          "from": "USD",
+                          "to": "BDT",
+                          "exchangeRateUsed": 122.58
+                        },
+                        "passengerTotalFare": {
+                          "totalFare": 46921,
+                          "totalTaxAmount": 10147,
+                          "currency": "BDT",
+                          "baseFareAmount": 300,
+                          "baseFareCurrency": "USD",
+                          "equivalentAmount": 36774,
+                          "equivalentCurrency": "BDT",
+                          "constructionAmount": 300,
+                          "constructionCurrency": "NUC",
+                          "commissionPercentage": 0,
+                          "commissionAmount": 0,
+                          "exchangeRateOne": 1
+                        },
+                        "baggageInformation": [
+                          {
+                            "provisionType": "A",
+                            "airlineCode": "BS",
+                            "segments": [{ "id": 0 }],
+                            "allowance": { "ref": 3 }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "passengerInfo": {
+                        "passengerType": "INF",
+                        "passengerNumber": 1,
+                        "nonRefundable": false,
+                        "fareComponents": [
+                          {
+                            "ref": 2,
+                            "beginAirport": "DAC",
+                            "endAirport": "DOH",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "K",
+                                  "cabinCode": "Y",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "taxes": [{ "ref": 12 }, { "ref": 8 }, { "ref": 7 }],
+                        "taxSummaries": [
+                          { "ref": 12 },
+                          { "ref": 9 },
+                          { "ref": 8 }
+                        ],
+                        "currencyConversion": {
+                          "from": "USD",
+                          "to": "BDT",
+                          "exchangeRateUsed": 122.58
+                        },
+                        "passengerTotalFare": {
+                          "totalFare": 12014,
+                          "totalTaxAmount": 2820,
+                          "currency": "BDT",
+                          "baseFareAmount": 75,
+                          "baseFareCurrency": "USD",
+                          "equivalentAmount": 9194,
+                          "equivalentCurrency": "BDT",
+                          "constructionAmount": 75,
+                          "constructionCurrency": "NUC",
+                          "commissionPercentage": 0,
+                          "commissionAmount": 0,
+                          "exchangeRateOne": 1
+                        },
+                        "baggageInformation": [
+                          {
+                            "provisionType": "A",
+                            "airlineCode": "BS",
+                            "segments": [{ "id": 0 }],
+                            "allowance": { "ref": 4 }
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "totalFare": {
+                    "totalPrice": 105856,
+                    "totalTaxAmount": 23114,
+                    "currency": "BDT",
+                    "baseFareAmount": 675,
+                    "baseFareCurrency": "USD",
+                    "constructionAmount": 675,
+                    "constructionCurrency": "NUC",
+                    "equivalentAmount": 82742,
+                    "equivalentCurrency": "BDT"
+                  }
+                }
+              }
+            ],
+            "diversitySwapper": { "weighedPrice": 79392 }
+          },
+          {
+            "id": 2,
+            "pricingSource": "ADVJR1",
+            "legs": [{ "ref": 5 }],
+            "pricingInformation": [
+              {
+                "pricingSubsource": "MIP",
+                "distributionModel": "ATPCO",
+                "fare": {
+                  "validatingCarrierCode": "BG",
+                  "vita": true,
+                  "eTicketable": true,
+                  "lastTicketDate": "2025-07-12",
+                  "lastTicketTime": "20:00",
+                  "governingCarriers": "BG",
+                  "passengerInfoList": [
+                    {
+                      "passengerInfo": {
+                        "passengerType": "ADT",
+                        "passengerNumber": 2,
+                        "nonRefundable": false,
+                        "fareComponents": [
+                          {
+                            "ref": 5,
+                            "beginAirport": "DAC",
+                            "endAirport": "DOH",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "Y",
+                                  "cabinCode": "Y",
+                                  "mealCode": "SM",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true
+                                }
+                              },
+                              {
+                                "segment": {
+                                  "bookingCode": "V",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "taxes": [
+                          { "ref": 14 },
+                          { "ref": 11 },
+                          { "ref": 10 },
+                          { "ref": 8 },
+                          { "ref": 7 },
+                          { "ref": 3 },
+                          { "ref": 1 },
+                          { "ref": 6 },
+                          { "ref": 2 },
+                          { "ref": 15 }
+                        ],
+                        "taxSummaries": [
+                          { "ref": 14 },
+                          { "ref": 3 },
+                          { "ref": 11 },
+                          { "ref": 6 },
+                          { "ref": 1 },
+                          { "ref": 7 },
+                          { "ref": 15 },
+                          { "ref": 9 },
+                          { "ref": 2 },
+                          { "ref": 8 }
+                        ],
+                        "currencyConversion": {
+                          "from": "USD",
+                          "to": "BDT",
+                          "exchangeRateUsed": 122.58
+                        },
+                        "passengerTotalFare": {
+                          "totalFare": 196832,
+                          "totalTaxAmount": 11491,
+                          "currency": "BDT",
+                          "baseFareAmount": 1512,
+                          "baseFareCurrency": "USD",
+                          "equivalentAmount": 185341,
+                          "equivalentCurrency": "BDT",
+                          "constructionAmount": 1512,
+                          "constructionCurrency": "NUC",
+                          "commissionPercentage": 0,
+                          "commissionAmount": 0,
+                          "exchangeRateOne": 1
+                        },
+                        "baggageInformation": [
+                          {
+                            "provisionType": "A",
+                            "airlineCode": "BG",
+                            "segments": [{ "id": 0 }, { "id": 1 }],
+                            "allowance": { "ref": 6 }
+                          }
+                        ],
+                        "penaltiesInfo": {
+                          "penalties": [
+                            {
+                              "type": "Exchange",
+                              "applicability": "Before",
+                              "changeable": true,
+                              "amount": 12258,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Exchange",
+                              "applicability": "After",
+                              "changeable": true,
+                              "amount": 12258,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "Before",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "After",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "passengerInfo": {
+                        "passengerType": "INF",
+                        "passengerNumber": 1,
+                        "nonRefundable": false,
+                        "fareComponents": [
+                          {
+                            "ref": 6,
+                            "beginAirport": "DAC",
+                            "endAirport": "DOH",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "Y",
+                                  "cabinCode": "Y",
+                                  "mealCode": "SM",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true
+                                }
+                              },
+                              {
+                                "segment": {
+                                  "bookingCode": "V",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "taxes": [
+                          { "ref": 12 },
+                          { "ref": 8 },
+                          { "ref": 7 },
+                          { "ref": 2 }
+                        ],
+                        "taxSummaries": [
+                          { "ref": 12 },
+                          { "ref": 9 },
+                          { "ref": 8 },
+                          { "ref": 2 }
+                        ],
+                        "currencyConversion": {
+                          "from": "USD",
+                          "to": "BDT",
+                          "exchangeRateUsed": 122.58
+                        },
+                        "passengerTotalFare": {
+                          "totalFare": 22034,
+                          "totalTaxAmount": 3524,
+                          "currency": "BDT",
+                          "baseFareAmount": 151,
+                          "baseFareCurrency": "USD",
+                          "equivalentAmount": 18510,
+                          "equivalentCurrency": "BDT",
+                          "constructionAmount": 151.2,
+                          "constructionCurrency": "NUC",
+                          "commissionPercentage": 0,
+                          "commissionAmount": 0,
+                          "exchangeRateOne": 1
+                        },
+                        "baggageInformation": [
+                          {
+                            "provisionType": "A",
+                            "airlineCode": "BG",
+                            "segments": [{ "id": 0 }, { "id": 1 }],
+                            "allowance": { "ref": 2 }
+                          }
+                        ],
+                        "penaltiesInfo": {
+                          "penalties": [
+                            {
+                              "type": "Exchange",
+                              "applicability": "Before",
+                              "changeable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Exchange",
+                              "applicability": "After",
+                              "changeable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "Before",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "After",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
+                  "totalFare": {
+                    "totalPrice": 415698,
+                    "totalTaxAmount": 26506,
+                    "currency": "BDT",
+                    "baseFareAmount": 3175,
+                    "baseFareCurrency": "USD",
+                    "constructionAmount": 3175.2,
+                    "constructionCurrency": "NUC",
+                    "equivalentAmount": 389192,
+                    "equivalentCurrency": "BDT"
+                  }
+                }
+              },
+              {
+                "pricingSubsource": "MIP",
+                "distributionModel": "ATPCO",
+                "flexibleFare": 1,
+                "fare": {
+                  "validatingCarrierCode": "BG",
+                  "vita": true,
+                  "eTicketable": true,
+                  "lastTicketDate": "2025-07-12",
+                  "lastTicketTime": "20:00",
+                  "governingCarriers": "BG",
+                  "passengerInfoList": [
+                    {
+                      "passengerInfo": {
+                        "passengerType": "ADT",
+                        "passengerNumber": 2,
+                        "nonRefundable": false,
+                        "fareComponents": [
+                          {
+                            "ref": 5,
+                            "beginAirport": "DAC",
+                            "endAirport": "DOH",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "Y",
+                                  "cabinCode": "Y",
+                                  "mealCode": "SM",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true
+                                }
+                              },
+                              {
+                                "segment": {
+                                  "bookingCode": "V",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "taxes": [
+                          { "ref": 14 },
+                          { "ref": 11 },
+                          { "ref": 10 },
+                          { "ref": 8 },
+                          { "ref": 7 },
+                          { "ref": 3 },
+                          { "ref": 1 },
+                          { "ref": 6 },
+                          { "ref": 2 },
+                          { "ref": 15 }
+                        ],
+                        "taxSummaries": [
+                          { "ref": 14 },
+                          { "ref": 3 },
+                          { "ref": 11 },
+                          { "ref": 6 },
+                          { "ref": 1 },
+                          { "ref": 7 },
+                          { "ref": 15 },
+                          { "ref": 9 },
+                          { "ref": 2 },
+                          { "ref": 8 }
+                        ],
+                        "currencyConversion": {
+                          "from": "USD",
+                          "to": "BDT",
+                          "exchangeRateUsed": 122.58
+                        },
+                        "passengerTotalFare": {
+                          "totalFare": 196832,
+                          "totalTaxAmount": 11491,
+                          "currency": "BDT",
+                          "baseFareAmount": 1512,
+                          "baseFareCurrency": "USD",
+                          "equivalentAmount": 185341,
+                          "equivalentCurrency": "BDT",
+                          "constructionAmount": 1512,
+                          "constructionCurrency": "NUC",
+                          "commissionPercentage": 0,
+                          "commissionAmount": 0,
+                          "exchangeRateOne": 1
+                        },
+                        "baggageInformation": [
+                          {
+                            "provisionType": "A",
+                            "airlineCode": "BG",
+                            "segments": [{ "id": 0 }, { "id": 1 }],
+                            "allowance": { "ref": 6 }
+                          }
+                        ],
+                        "penaltiesInfo": {
+                          "penalties": [
+                            {
+                              "type": "Exchange",
+                              "applicability": "Before",
+                              "changeable": true,
+                              "amount": 12258,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Exchange",
+                              "applicability": "After",
+                              "changeable": true,
+                              "amount": 12258,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "Before",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "After",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "passengerInfo": {
+                        "passengerType": "INF",
+                        "passengerNumber": 1,
+                        "nonRefundable": false,
+                        "fareComponents": [
+                          {
+                            "ref": 6,
+                            "beginAirport": "DAC",
+                            "endAirport": "DOH",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "Y",
+                                  "cabinCode": "Y",
+                                  "mealCode": "SM",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true
+                                }
+                              },
+                              {
+                                "segment": {
+                                  "bookingCode": "V",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "taxes": [
+                          { "ref": 12 },
+                          { "ref": 8 },
+                          { "ref": 7 },
+                          { "ref": 2 }
+                        ],
+                        "taxSummaries": [
+                          { "ref": 12 },
+                          { "ref": 9 },
+                          { "ref": 8 },
+                          { "ref": 2 }
+                        ],
+                        "currencyConversion": {
+                          "from": "USD",
+                          "to": "BDT",
+                          "exchangeRateUsed": 122.58
+                        },
+                        "passengerTotalFare": {
+                          "totalFare": 22034,
+                          "totalTaxAmount": 3524,
+                          "currency": "BDT",
+                          "baseFareAmount": 151,
+                          "baseFareCurrency": "USD",
+                          "equivalentAmount": 18510,
+                          "equivalentCurrency": "BDT",
+                          "constructionAmount": 151.2,
+                          "constructionCurrency": "NUC",
+                          "commissionPercentage": 0,
+                          "commissionAmount": 0,
+                          "exchangeRateOne": 1
+                        },
+                        "baggageInformation": [
+                          {
+                            "provisionType": "A",
+                            "airlineCode": "BG",
+                            "segments": [{ "id": 0 }, { "id": 1 }],
+                            "allowance": { "ref": 2 }
+                          }
+                        ],
+                        "penaltiesInfo": {
+                          "penalties": [
+                            {
+                              "type": "Exchange",
+                              "applicability": "Before",
+                              "changeable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Exchange",
+                              "applicability": "After",
+                              "changeable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "Before",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "After",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
+                  "totalFare": {
+                    "totalPrice": 415698,
+                    "totalTaxAmount": 26506,
+                    "currency": "BDT",
+                    "baseFareAmount": 3175,
+                    "baseFareCurrency": "USD",
+                    "constructionAmount": 3175.2,
+                    "constructionCurrency": "NUC",
+                    "equivalentAmount": 389192,
+                    "equivalentCurrency": "BDT"
+                  }
+                }
+              },
+              {
+                "pricingSubsource": "MIP",
+                "distributionModel": "ATPCO",
+                "flexibleFare": 2,
+                "fare": {
+                  "validatingCarrierCode": "BG",
+                  "vita": true,
+                  "eTicketable": true,
+                  "lastTicketDate": "2025-07-12",
+                  "lastTicketTime": "20:00",
+                  "governingCarriers": "BG",
+                  "passengerInfoList": [
+                    {
+                      "passengerInfo": {
+                        "passengerType": "ADT",
+                        "passengerNumber": 2,
+                        "nonRefundable": false,
+                        "fareComponents": [
+                          {
+                            "ref": 5,
+                            "beginAirport": "DAC",
+                            "endAirport": "DOH",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "Y",
+                                  "cabinCode": "Y",
+                                  "mealCode": "SM",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true
+                                }
+                              },
+                              {
+                                "segment": {
+                                  "bookingCode": "V",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "taxes": [
+                          { "ref": 14 },
+                          { "ref": 11 },
+                          { "ref": 10 },
+                          { "ref": 8 },
+                          { "ref": 7 },
+                          { "ref": 3 },
+                          { "ref": 1 },
+                          { "ref": 6 },
+                          { "ref": 2 },
+                          { "ref": 15 }
+                        ],
+                        "taxSummaries": [
+                          { "ref": 14 },
+                          { "ref": 3 },
+                          { "ref": 11 },
+                          { "ref": 6 },
+                          { "ref": 1 },
+                          { "ref": 7 },
+                          { "ref": 15 },
+                          { "ref": 9 },
+                          { "ref": 2 },
+                          { "ref": 8 }
+                        ],
+                        "currencyConversion": {
+                          "from": "USD",
+                          "to": "BDT",
+                          "exchangeRateUsed": 122.58
+                        },
+                        "passengerTotalFare": {
+                          "totalFare": 196832,
+                          "totalTaxAmount": 11491,
+                          "currency": "BDT",
+                          "baseFareAmount": 1512,
+                          "baseFareCurrency": "USD",
+                          "equivalentAmount": 185341,
+                          "equivalentCurrency": "BDT",
+                          "constructionAmount": 1512,
+                          "constructionCurrency": "NUC",
+                          "commissionPercentage": 0,
+                          "commissionAmount": 0,
+                          "exchangeRateOne": 1
+                        },
+                        "baggageInformation": [
+                          {
+                            "provisionType": "A",
+                            "airlineCode": "BG",
+                            "segments": [{ "id": 0 }, { "id": 1 }],
+                            "allowance": { "ref": 6 }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "passengerInfo": {
+                        "passengerType": "INF",
+                        "passengerNumber": 1,
+                        "nonRefundable": false,
+                        "fareComponents": [
+                          {
+                            "ref": 6,
+                            "beginAirport": "DAC",
+                            "endAirport": "DOH",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "Y",
+                                  "cabinCode": "Y",
+                                  "mealCode": "SM",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true
+                                }
+                              },
+                              {
+                                "segment": {
+                                  "bookingCode": "V",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "taxes": [
+                          { "ref": 12 },
+                          { "ref": 8 },
+                          { "ref": 7 },
+                          { "ref": 2 }
+                        ],
+                        "taxSummaries": [
+                          { "ref": 12 },
+                          { "ref": 9 },
+                          { "ref": 8 },
+                          { "ref": 2 }
+                        ],
+                        "currencyConversion": {
+                          "from": "USD",
+                          "to": "BDT",
+                          "exchangeRateUsed": 122.58
+                        },
+                        "passengerTotalFare": {
+                          "totalFare": 22034,
+                          "totalTaxAmount": 3524,
+                          "currency": "BDT",
+                          "baseFareAmount": 151,
+                          "baseFareCurrency": "USD",
+                          "equivalentAmount": 18510,
+                          "equivalentCurrency": "BDT",
+                          "constructionAmount": 151.2,
+                          "constructionCurrency": "NUC",
+                          "commissionPercentage": 0,
+                          "commissionAmount": 0,
+                          "exchangeRateOne": 1
+                        },
+                        "baggageInformation": [
+                          {
+                            "provisionType": "A",
+                            "airlineCode": "BG",
+                            "segments": [{ "id": 0 }, { "id": 1 }],
+                            "allowance": { "ref": 2 }
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "totalFare": {
+                    "totalPrice": 415698,
+                    "totalTaxAmount": 26506,
+                    "currency": "BDT",
+                    "baseFareAmount": 3175,
+                    "baseFareCurrency": "USD",
+                    "constructionAmount": 3175.2,
+                    "constructionCurrency": "NUC",
+                    "equivalentAmount": 389192,
+                    "equivalentCurrency": "BDT"
+                  }
+                }
+              }
+            ],
+            "diversitySwapper": { "weighedPrice": 672960.158 }
+          },
+          {
+            "id": 3,
+            "pricingSource": "ADVJR1",
+            "legs": [{ "ref": 4 }],
+            "pricingInformation": [
+              {
+                "pricingSubsource": "MIP",
+                "distributionModel": "ATPCO",
+                "fare": {
+                  "validatingCarrierCode": "BG",
+                  "vita": true,
+                  "eTicketable": true,
+                  "lastTicketDate": "2025-07-12",
+                  "lastTicketTime": "20:00",
+                  "governingCarriers": "BG",
+                  "passengerInfoList": [
+                    {
+                      "passengerInfo": {
+                        "passengerType": "ADT",
+                        "passengerNumber": 2,
+                        "nonRefundable": false,
+                        "fareComponents": [
+                          {
+                            "ref": 5,
+                            "beginAirport": "DAC",
+                            "endAirport": "DOH",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "Y",
+                                  "cabinCode": "Y",
+                                  "mealCode": "SM",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true
+                                }
+                              },
+                              {
+                                "segment": {
+                                  "bookingCode": "V",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "taxes": [
+                          { "ref": 14 },
+                          { "ref": 11 },
+                          { "ref": 10 },
+                          { "ref": 8 },
+                          { "ref": 7 },
+                          { "ref": 3 },
+                          { "ref": 1 },
+                          { "ref": 6 },
+                          { "ref": 2 },
+                          { "ref": 15 }
+                        ],
+                        "taxSummaries": [
+                          { "ref": 14 },
+                          { "ref": 3 },
+                          { "ref": 11 },
+                          { "ref": 6 },
+                          { "ref": 1 },
+                          { "ref": 7 },
+                          { "ref": 15 },
+                          { "ref": 9 },
+                          { "ref": 2 },
+                          { "ref": 8 }
+                        ],
+                        "currencyConversion": {
+                          "from": "USD",
+                          "to": "BDT",
+                          "exchangeRateUsed": 122.58
+                        },
+                        "passengerTotalFare": {
+                          "totalFare": 196832,
+                          "totalTaxAmount": 11491,
+                          "currency": "BDT",
+                          "baseFareAmount": 1512,
+                          "baseFareCurrency": "USD",
+                          "equivalentAmount": 185341,
+                          "equivalentCurrency": "BDT",
+                          "constructionAmount": 1512,
+                          "constructionCurrency": "NUC",
+                          "commissionPercentage": 0,
+                          "commissionAmount": 0,
+                          "exchangeRateOne": 1
+                        },
+                        "baggageInformation": [
+                          {
+                            "provisionType": "A",
+                            "airlineCode": "BG",
+                            "segments": [{ "id": 0 }, { "id": 1 }],
+                            "allowance": { "ref": 6 }
+                          }
+                        ],
+                        "penaltiesInfo": {
+                          "penalties": [
+                            {
+                              "type": "Exchange",
+                              "applicability": "Before",
+                              "changeable": true,
+                              "amount": 12258,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Exchange",
+                              "applicability": "After",
+                              "changeable": true,
+                              "amount": 12258,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "Before",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "After",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "passengerInfo": {
+                        "passengerType": "INF",
+                        "passengerNumber": 1,
+                        "nonRefundable": false,
+                        "fareComponents": [
+                          {
+                            "ref": 6,
+                            "beginAirport": "DAC",
+                            "endAirport": "DOH",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "Y",
+                                  "cabinCode": "Y",
+                                  "mealCode": "SM",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true
+                                }
+                              },
+                              {
+                                "segment": {
+                                  "bookingCode": "V",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "taxes": [
+                          { "ref": 12 },
+                          { "ref": 8 },
+                          { "ref": 7 },
+                          { "ref": 2 }
+                        ],
+                        "taxSummaries": [
+                          { "ref": 12 },
+                          { "ref": 9 },
+                          { "ref": 8 },
+                          { "ref": 2 }
+                        ],
+                        "currencyConversion": {
+                          "from": "USD",
+                          "to": "BDT",
+                          "exchangeRateUsed": 122.58
+                        },
+                        "passengerTotalFare": {
+                          "totalFare": 22034,
+                          "totalTaxAmount": 3524,
+                          "currency": "BDT",
+                          "baseFareAmount": 151,
+                          "baseFareCurrency": "USD",
+                          "equivalentAmount": 18510,
+                          "equivalentCurrency": "BDT",
+                          "constructionAmount": 151.2,
+                          "constructionCurrency": "NUC",
+                          "commissionPercentage": 0,
+                          "commissionAmount": 0,
+                          "exchangeRateOne": 1
+                        },
+                        "baggageInformation": [
+                          {
+                            "provisionType": "A",
+                            "airlineCode": "BG",
+                            "segments": [{ "id": 0 }, { "id": 1 }],
+                            "allowance": { "ref": 2 }
+                          }
+                        ],
+                        "penaltiesInfo": {
+                          "penalties": [
+                            {
+                              "type": "Exchange",
+                              "applicability": "Before",
+                              "changeable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Exchange",
+                              "applicability": "After",
+                              "changeable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "Before",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "After",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
+                  "totalFare": {
+                    "totalPrice": 415698,
+                    "totalTaxAmount": 26506,
+                    "currency": "BDT",
+                    "baseFareAmount": 3175,
+                    "baseFareCurrency": "USD",
+                    "constructionAmount": 3175.2,
+                    "constructionCurrency": "NUC",
+                    "equivalentAmount": 389192,
+                    "equivalentCurrency": "BDT"
+                  }
+                }
+              },
+              {
+                "pricingSubsource": "MIP",
+                "distributionModel": "ATPCO",
+                "flexibleFare": 1,
+                "fare": {
+                  "validatingCarrierCode": "BG",
+                  "vita": true,
+                  "eTicketable": true,
+                  "lastTicketDate": "2025-07-12",
+                  "lastTicketTime": "20:00",
+                  "governingCarriers": "BG",
+                  "passengerInfoList": [
+                    {
+                      "passengerInfo": {
+                        "passengerType": "ADT",
+                        "passengerNumber": 2,
+                        "nonRefundable": false,
+                        "fareComponents": [
+                          {
+                            "ref": 5,
+                            "beginAirport": "DAC",
+                            "endAirport": "DOH",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "Y",
+                                  "cabinCode": "Y",
+                                  "mealCode": "SM",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true
+                                }
+                              },
+                              {
+                                "segment": {
+                                  "bookingCode": "V",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "taxes": [
+                          { "ref": 14 },
+                          { "ref": 11 },
+                          { "ref": 10 },
+                          { "ref": 8 },
+                          { "ref": 7 },
+                          { "ref": 3 },
+                          { "ref": 1 },
+                          { "ref": 6 },
+                          { "ref": 2 },
+                          { "ref": 15 }
+                        ],
+                        "taxSummaries": [
+                          { "ref": 14 },
+                          { "ref": 3 },
+                          { "ref": 11 },
+                          { "ref": 6 },
+                          { "ref": 1 },
+                          { "ref": 7 },
+                          { "ref": 15 },
+                          { "ref": 9 },
+                          { "ref": 2 },
+                          { "ref": 8 }
+                        ],
+                        "currencyConversion": {
+                          "from": "USD",
+                          "to": "BDT",
+                          "exchangeRateUsed": 122.58
+                        },
+                        "passengerTotalFare": {
+                          "totalFare": 196832,
+                          "totalTaxAmount": 11491,
+                          "currency": "BDT",
+                          "baseFareAmount": 1512,
+                          "baseFareCurrency": "USD",
+                          "equivalentAmount": 185341,
+                          "equivalentCurrency": "BDT",
+                          "constructionAmount": 1512,
+                          "constructionCurrency": "NUC",
+                          "commissionPercentage": 0,
+                          "commissionAmount": 0,
+                          "exchangeRateOne": 1
+                        },
+                        "baggageInformation": [
+                          {
+                            "provisionType": "A",
+                            "airlineCode": "BG",
+                            "segments": [{ "id": 0 }, { "id": 1 }],
+                            "allowance": { "ref": 6 }
+                          }
+                        ],
+                        "penaltiesInfo": {
+                          "penalties": [
+                            {
+                              "type": "Exchange",
+                              "applicability": "Before",
+                              "changeable": true,
+                              "amount": 12258,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Exchange",
+                              "applicability": "After",
+                              "changeable": true,
+                              "amount": 12258,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "Before",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "After",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "passengerInfo": {
+                        "passengerType": "INF",
+                        "passengerNumber": 1,
+                        "nonRefundable": false,
+                        "fareComponents": [
+                          {
+                            "ref": 6,
+                            "beginAirport": "DAC",
+                            "endAirport": "DOH",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "Y",
+                                  "cabinCode": "Y",
+                                  "mealCode": "SM",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true
+                                }
+                              },
+                              {
+                                "segment": {
+                                  "bookingCode": "V",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "taxes": [
+                          { "ref": 12 },
+                          { "ref": 8 },
+                          { "ref": 7 },
+                          { "ref": 2 }
+                        ],
+                        "taxSummaries": [
+                          { "ref": 12 },
+                          { "ref": 9 },
+                          { "ref": 8 },
+                          { "ref": 2 }
+                        ],
+                        "currencyConversion": {
+                          "from": "USD",
+                          "to": "BDT",
+                          "exchangeRateUsed": 122.58
+                        },
+                        "passengerTotalFare": {
+                          "totalFare": 22034,
+                          "totalTaxAmount": 3524,
+                          "currency": "BDT",
+                          "baseFareAmount": 151,
+                          "baseFareCurrency": "USD",
+                          "equivalentAmount": 18510,
+                          "equivalentCurrency": "BDT",
+                          "constructionAmount": 151.2,
+                          "constructionCurrency": "NUC",
+                          "commissionPercentage": 0,
+                          "commissionAmount": 0,
+                          "exchangeRateOne": 1
+                        },
+                        "baggageInformation": [
+                          {
+                            "provisionType": "A",
+                            "airlineCode": "BG",
+                            "segments": [{ "id": 0 }, { "id": 1 }],
+                            "allowance": { "ref": 2 }
+                          }
+                        ],
+                        "penaltiesInfo": {
+                          "penalties": [
+                            {
+                              "type": "Exchange",
+                              "applicability": "Before",
+                              "changeable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Exchange",
+                              "applicability": "After",
+                              "changeable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "Before",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "After",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
+                  "totalFare": {
+                    "totalPrice": 415698,
+                    "totalTaxAmount": 26506,
+                    "currency": "BDT",
+                    "baseFareAmount": 3175,
+                    "baseFareCurrency": "USD",
+                    "constructionAmount": 3175.2,
+                    "constructionCurrency": "NUC",
+                    "equivalentAmount": 389192,
+                    "equivalentCurrency": "BDT"
+                  }
+                }
+              },
+              {
+                "pricingSubsource": "MIP",
+                "distributionModel": "ATPCO",
+                "flexibleFare": 2,
+                "fare": {
+                  "validatingCarrierCode": "BG",
+                  "vita": true,
+                  "eTicketable": true,
+                  "lastTicketDate": "2025-07-12",
+                  "lastTicketTime": "20:00",
+                  "governingCarriers": "BG",
+                  "passengerInfoList": [
+                    {
+                      "passengerInfo": {
+                        "passengerType": "ADT",
+                        "passengerNumber": 2,
+                        "nonRefundable": false,
+                        "fareComponents": [
+                          {
+                            "ref": 5,
+                            "beginAirport": "DAC",
+                            "endAirport": "DOH",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "Y",
+                                  "cabinCode": "Y",
+                                  "mealCode": "SM",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true
+                                }
+                              },
+                              {
+                                "segment": {
+                                  "bookingCode": "V",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "taxes": [
+                          { "ref": 14 },
+                          { "ref": 11 },
+                          { "ref": 10 },
+                          { "ref": 8 },
+                          { "ref": 7 },
+                          { "ref": 3 },
+                          { "ref": 1 },
+                          { "ref": 6 },
+                          { "ref": 2 },
+                          { "ref": 15 }
+                        ],
+                        "taxSummaries": [
+                          { "ref": 14 },
+                          { "ref": 3 },
+                          { "ref": 11 },
+                          { "ref": 6 },
+                          { "ref": 1 },
+                          { "ref": 7 },
+                          { "ref": 15 },
+                          { "ref": 9 },
+                          { "ref": 2 },
+                          { "ref": 8 }
+                        ],
+                        "currencyConversion": {
+                          "from": "USD",
+                          "to": "BDT",
+                          "exchangeRateUsed": 122.58
+                        },
+                        "passengerTotalFare": {
+                          "totalFare": 196832,
+                          "totalTaxAmount": 11491,
+                          "currency": "BDT",
+                          "baseFareAmount": 1512,
+                          "baseFareCurrency": "USD",
+                          "equivalentAmount": 185341,
+                          "equivalentCurrency": "BDT",
+                          "constructionAmount": 1512,
+                          "constructionCurrency": "NUC",
+                          "commissionPercentage": 0,
+                          "commissionAmount": 0,
+                          "exchangeRateOne": 1
+                        },
+                        "baggageInformation": [
+                          {
+                            "provisionType": "A",
+                            "airlineCode": "BG",
+                            "segments": [{ "id": 0 }, { "id": 1 }],
+                            "allowance": { "ref": 6 }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "passengerInfo": {
+                        "passengerType": "INF",
+                        "passengerNumber": 1,
+                        "nonRefundable": false,
+                        "fareComponents": [
+                          {
+                            "ref": 6,
+                            "beginAirport": "DAC",
+                            "endAirport": "DOH",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "Y",
+                                  "cabinCode": "Y",
+                                  "mealCode": "SM",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true
+                                }
+                              },
+                              {
+                                "segment": {
+                                  "bookingCode": "V",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "taxes": [
+                          { "ref": 12 },
+                          { "ref": 8 },
+                          { "ref": 7 },
+                          { "ref": 2 }
+                        ],
+                        "taxSummaries": [
+                          { "ref": 12 },
+                          { "ref": 9 },
+                          { "ref": 8 },
+                          { "ref": 2 }
+                        ],
+                        "currencyConversion": {
+                          "from": "USD",
+                          "to": "BDT",
+                          "exchangeRateUsed": 122.58
+                        },
+                        "passengerTotalFare": {
+                          "totalFare": 22034,
+                          "totalTaxAmount": 3524,
+                          "currency": "BDT",
+                          "baseFareAmount": 151,
+                          "baseFareCurrency": "USD",
+                          "equivalentAmount": 18510,
+                          "equivalentCurrency": "BDT",
+                          "constructionAmount": 151.2,
+                          "constructionCurrency": "NUC",
+                          "commissionPercentage": 0,
+                          "commissionAmount": 0,
+                          "exchangeRateOne": 1
+                        },
+                        "baggageInformation": [
+                          {
+                            "provisionType": "A",
+                            "airlineCode": "BG",
+                            "segments": [{ "id": 0 }, { "id": 1 }],
+                            "allowance": { "ref": 2 }
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "totalFare": {
+                    "totalPrice": 415698,
+                    "totalTaxAmount": 26506,
+                    "currency": "BDT",
+                    "baseFareAmount": 3175,
+                    "baseFareCurrency": "USD",
+                    "constructionAmount": 3175.2,
+                    "constructionCurrency": "NUC",
+                    "equivalentAmount": 389192,
+                    "equivalentCurrency": "BDT"
+                  }
+                }
+              }
+            ],
+            "diversitySwapper": { "weighedPrice": 806571.929 }
+          },
+          {
+            "id": 4,
+            "pricingSource": "ADVJR1",
+            "legs": [{ "ref": 3 }],
+            "pricingInformation": [
+              {
+                "pricingSubsource": "MIP",
+                "distributionModel": "ATPCO",
+                "fare": {
+                  "validatingCarrierCode": "MH",
+                  "vita": true,
+                  "eTicketable": true,
+                  "lastTicketDate": "2025-07-12",
+                  "lastTicketTime": "20:00",
+                  "governingCarriers": "MH",
+                  "passengerInfoList": [
+                    {
+                      "passengerInfo": {
+                        "passengerType": "ADT",
+                        "passengerNumber": 2,
+                        "nonRefundable": false,
+                        "fareComponents": [
+                          {
+                            "ref": 7,
+                            "beginAirport": "DAC",
+                            "endAirport": "KUL",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "Y",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "ref": 4,
+                            "beginAirport": "KUL",
+                            "endAirport": "DOH",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "H",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 2,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "taxes": [
+                          { "ref": 14 },
+                          { "ref": 11 },
+                          { "ref": 10 },
+                          { "ref": 8 },
+                          { "ref": 7 },
+                          { "ref": 3 },
+                          { "ref": 4 },
+                          { "ref": 5 }
+                        ],
+                        "taxSummaries": [
+                          { "ref": 14 },
+                          { "ref": 3 },
+                          { "ref": 11 },
+                          { "ref": 6 },
+                          { "ref": 4 },
+                          { "ref": 5 },
+                          { "ref": 8 },
+                          { "ref": 9 }
+                        ],
+                        "currencyConversion": {
+                          "from": "USD",
+                          "to": "BDT",
+                          "exchangeRateUsed": 122.58
+                        },
+                        "passengerTotalFare": {
+                          "totalFare": 278094,
+                          "totalTaxAmount": 11360,
+                          "currency": "BDT",
+                          "baseFareAmount": 2176,
+                          "baseFareCurrency": "USD",
+                          "equivalentAmount": 266734,
+                          "equivalentCurrency": "BDT",
+                          "constructionAmount": 2176.12,
+                          "constructionCurrency": "NUC",
+                          "commissionPercentage": 0,
+                          "commissionAmount": 0,
+                          "exchangeRateOne": 1
+                        },
+                        "baggageInformation": [
+                          {
+                            "provisionType": "A",
+                            "airlineCode": "MH",
+                            "segments": [{ "id": 0 }, { "id": 1 }],
+                            "allowance": { "ref": 1 }
+                          }
+                        ],
+                        "penaltiesInfo": {
+                          "penalties": [
+                            {
+                              "type": "Exchange",
+                              "applicability": "Before",
+                              "changeable": true,
+                              "amount": 12258,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Exchange",
+                              "applicability": "After",
+                              "changeable": true,
+                              "amount": 12258,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "Before",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "After",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "passengerInfo": {
+                        "passengerType": "INF",
+                        "passengerNumber": 1,
+                        "nonRefundable": false,
+                        "fareComponents": [
+                          {
+                            "ref": 8,
+                            "beginAirport": "DAC",
+                            "endAirport": "KUL",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "Y",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "ref": 3,
+                            "beginAirport": "KUL",
+                            "endAirport": "DOH",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "H",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 2,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "taxes": [{ "ref": 12 }, { "ref": 8 }, { "ref": 7 }],
+                        "taxSummaries": [
+                          { "ref": 12 },
+                          { "ref": 9 },
+                          { "ref": 8 }
+                        ],
+                        "currencyConversion": {
+                          "from": "USD",
+                          "to": "BDT",
+                          "exchangeRateUsed": 122.58
+                        },
+                        "passengerTotalFare": {
+                          "totalFare": 32853,
+                          "totalTaxAmount": 2820,
+                          "currency": "BDT",
+                          "baseFareAmount": 245,
+                          "baseFareCurrency": "USD",
+                          "equivalentAmount": 30033,
+                          "equivalentCurrency": "BDT",
+                          "constructionAmount": 244.61,
+                          "constructionCurrency": "NUC",
+                          "commissionPercentage": 0,
+                          "commissionAmount": 0,
+                          "exchangeRateOne": 1
+                        },
+                        "baggageInformation": [
+                          {
+                            "provisionType": "A",
+                            "airlineCode": "MH",
+                            "segments": [{ "id": 0 }, { "id": 1 }],
+                            "allowance": { "ref": 5 }
+                          }
+                        ],
+                        "penaltiesInfo": {
+                          "penalties": [
+                            {
+                              "type": "Exchange",
+                              "applicability": "Before",
+                              "changeable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Exchange",
+                              "applicability": "After",
+                              "changeable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "Before",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "After",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
+                  "totalFare": {
+                    "totalPrice": 589041,
+                    "totalTaxAmount": 25540,
+                    "currency": "BDT",
+                    "baseFareAmount": 4597,
+                    "baseFareCurrency": "USD",
+                    "constructionAmount": 4596.85,
+                    "constructionCurrency": "NUC",
+                    "equivalentAmount": 563501,
+                    "equivalentCurrency": "BDT"
+                  }
+                }
+              },
+              {
+                "pricingSubsource": "MIP",
+                "distributionModel": "ATPCO",
+                "flexibleFare": 1,
+                "fare": {
+                  "validatingCarrierCode": "MH",
+                  "vita": true,
+                  "eTicketable": true,
+                  "lastTicketDate": "2025-07-12",
+                  "lastTicketTime": "20:00",
+                  "governingCarriers": "MH",
+                  "passengerInfoList": [
+                    {
+                      "passengerInfo": {
+                        "passengerType": "ADT",
+                        "passengerNumber": 2,
+                        "nonRefundable": false,
+                        "fareComponents": [
+                          {
+                            "ref": 7,
+                            "beginAirport": "DAC",
+                            "endAirport": "KUL",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "Y",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "ref": 4,
+                            "beginAirport": "KUL",
+                            "endAirport": "DOH",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "H",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 2,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "taxes": [
+                          { "ref": 14 },
+                          { "ref": 11 },
+                          { "ref": 10 },
+                          { "ref": 8 },
+                          { "ref": 7 },
+                          { "ref": 3 },
+                          { "ref": 4 },
+                          { "ref": 5 }
+                        ],
+                        "taxSummaries": [
+                          { "ref": 14 },
+                          { "ref": 3 },
+                          { "ref": 11 },
+                          { "ref": 6 },
+                          { "ref": 4 },
+                          { "ref": 5 },
+                          { "ref": 8 },
+                          { "ref": 9 }
+                        ],
+                        "currencyConversion": {
+                          "from": "USD",
+                          "to": "BDT",
+                          "exchangeRateUsed": 122.58
+                        },
+                        "passengerTotalFare": {
+                          "totalFare": 278094,
+                          "totalTaxAmount": 11360,
+                          "currency": "BDT",
+                          "baseFareAmount": 2176,
+                          "baseFareCurrency": "USD",
+                          "equivalentAmount": 266734,
+                          "equivalentCurrency": "BDT",
+                          "constructionAmount": 2176.12,
+                          "constructionCurrency": "NUC",
+                          "commissionPercentage": 0,
+                          "commissionAmount": 0,
+                          "exchangeRateOne": 1
+                        },
+                        "baggageInformation": [
+                          {
+                            "provisionType": "A",
+                            "airlineCode": "MH",
+                            "segments": [{ "id": 0 }, { "id": 1 }],
+                            "allowance": { "ref": 1 }
+                          }
+                        ],
+                        "penaltiesInfo": {
+                          "penalties": [
+                            {
+                              "type": "Exchange",
+                              "applicability": "Before",
+                              "changeable": true,
+                              "amount": 12258,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Exchange",
+                              "applicability": "After",
+                              "changeable": true,
+                              "amount": 12258,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "Before",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "After",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "passengerInfo": {
+                        "passengerType": "INF",
+                        "passengerNumber": 1,
+                        "nonRefundable": false,
+                        "fareComponents": [
+                          {
+                            "ref": 8,
+                            "beginAirport": "DAC",
+                            "endAirport": "KUL",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "Y",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "ref": 3,
+                            "beginAirport": "KUL",
+                            "endAirport": "DOH",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "H",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 2,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "taxes": [{ "ref": 12 }, { "ref": 8 }, { "ref": 7 }],
+                        "taxSummaries": [
+                          { "ref": 12 },
+                          { "ref": 9 },
+                          { "ref": 8 }
+                        ],
+                        "currencyConversion": {
+                          "from": "USD",
+                          "to": "BDT",
+                          "exchangeRateUsed": 122.58
+                        },
+                        "passengerTotalFare": {
+                          "totalFare": 32853,
+                          "totalTaxAmount": 2820,
+                          "currency": "BDT",
+                          "baseFareAmount": 245,
+                          "baseFareCurrency": "USD",
+                          "equivalentAmount": 30033,
+                          "equivalentCurrency": "BDT",
+                          "constructionAmount": 244.61,
+                          "constructionCurrency": "NUC",
+                          "commissionPercentage": 0,
+                          "commissionAmount": 0,
+                          "exchangeRateOne": 1
+                        },
+                        "baggageInformation": [
+                          {
+                            "provisionType": "A",
+                            "airlineCode": "MH",
+                            "segments": [{ "id": 0 }, { "id": 1 }],
+                            "allowance": { "ref": 5 }
+                          }
+                        ],
+                        "penaltiesInfo": {
+                          "penalties": [
+                            {
+                              "type": "Exchange",
+                              "applicability": "Before",
+                              "changeable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Exchange",
+                              "applicability": "After",
+                              "changeable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "Before",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "After",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
+                  "totalFare": {
+                    "totalPrice": 589041,
+                    "totalTaxAmount": 25540,
+                    "currency": "BDT",
+                    "baseFareAmount": 4597,
+                    "baseFareCurrency": "USD",
+                    "constructionAmount": 4596.85,
+                    "constructionCurrency": "NUC",
+                    "equivalentAmount": 563501,
+                    "equivalentCurrency": "BDT"
+                  }
+                }
+              },
+              {
+                "pricingSubsource": "MIP",
+                "distributionModel": "ATPCO",
+                "flexibleFare": 2,
+                "fare": {
+                  "validatingCarrierCode": "MH",
+                  "vita": true,
+                  "eTicketable": true,
+                  "lastTicketDate": "2025-07-12",
+                  "lastTicketTime": "20:00",
+                  "governingCarriers": "MH",
+                  "passengerInfoList": [
+                    {
+                      "passengerInfo": {
+                        "passengerType": "ADT",
+                        "passengerNumber": 2,
+                        "nonRefundable": false,
+                        "fareComponents": [
+                          {
+                            "ref": 7,
+                            "beginAirport": "DAC",
+                            "endAirport": "KUL",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "Y",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "ref": 4,
+                            "beginAirport": "KUL",
+                            "endAirport": "DOH",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "H",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 2,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "taxes": [
+                          { "ref": 14 },
+                          { "ref": 11 },
+                          { "ref": 10 },
+                          { "ref": 8 },
+                          { "ref": 7 },
+                          { "ref": 3 },
+                          { "ref": 4 },
+                          { "ref": 5 }
+                        ],
+                        "taxSummaries": [
+                          { "ref": 14 },
+                          { "ref": 3 },
+                          { "ref": 11 },
+                          { "ref": 6 },
+                          { "ref": 4 },
+                          { "ref": 5 },
+                          { "ref": 8 },
+                          { "ref": 9 }
+                        ],
+                        "currencyConversion": {
+                          "from": "USD",
+                          "to": "BDT",
+                          "exchangeRateUsed": 122.58
+                        },
+                        "passengerTotalFare": {
+                          "totalFare": 278094,
+                          "totalTaxAmount": 11360,
+                          "currency": "BDT",
+                          "baseFareAmount": 2176,
+                          "baseFareCurrency": "USD",
+                          "equivalentAmount": 266734,
+                          "equivalentCurrency": "BDT",
+                          "constructionAmount": 2176.12,
+                          "constructionCurrency": "NUC",
+                          "commissionPercentage": 0,
+                          "commissionAmount": 0,
+                          "exchangeRateOne": 1
+                        },
+                        "baggageInformation": [
+                          {
+                            "provisionType": "A",
+                            "airlineCode": "MH",
+                            "segments": [{ "id": 0 }, { "id": 1 }],
+                            "allowance": { "ref": 1 }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "passengerInfo": {
+                        "passengerType": "INF",
+                        "passengerNumber": 1,
+                        "nonRefundable": false,
+                        "fareComponents": [
+                          {
+                            "ref": 8,
+                            "beginAirport": "DAC",
+                            "endAirport": "KUL",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "Y",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "ref": 3,
+                            "beginAirport": "KUL",
+                            "endAirport": "DOH",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "H",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 2,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "taxes": [{ "ref": 12 }, { "ref": 8 }, { "ref": 7 }],
+                        "taxSummaries": [
+                          { "ref": 12 },
+                          { "ref": 9 },
+                          { "ref": 8 }
+                        ],
+                        "currencyConversion": {
+                          "from": "USD",
+                          "to": "BDT",
+                          "exchangeRateUsed": 122.58
+                        },
+                        "passengerTotalFare": {
+                          "totalFare": 32853,
+                          "totalTaxAmount": 2820,
+                          "currency": "BDT",
+                          "baseFareAmount": 245,
+                          "baseFareCurrency": "USD",
+                          "equivalentAmount": 30033,
+                          "equivalentCurrency": "BDT",
+                          "constructionAmount": 244.61,
+                          "constructionCurrency": "NUC",
+                          "commissionPercentage": 0,
+                          "commissionAmount": 0,
+                          "exchangeRateOne": 1
+                        },
+                        "baggageInformation": [
+                          {
+                            "provisionType": "A",
+                            "airlineCode": "MH",
+                            "segments": [{ "id": 0 }, { "id": 1 }],
+                            "allowance": { "ref": 5 }
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "totalFare": {
+                    "totalPrice": 589041,
+                    "totalTaxAmount": 25540,
+                    "currency": "BDT",
+                    "baseFareAmount": 4597,
+                    "baseFareCurrency": "USD",
+                    "constructionAmount": 4596.85,
+                    "constructionCurrency": "NUC",
+                    "equivalentAmount": 563501,
+                    "equivalentCurrency": "BDT"
+                  }
+                }
+              }
+            ],
+            "diversitySwapper": { "weighedPrice": 930444.355 }
+          },
+          {
+            "id": 5,
+            "pricingSource": "ADVJR1",
+            "legs": [{ "ref": 1 }],
+            "pricingInformation": [
+              {
+                "pricingSubsource": "MIP",
+                "distributionModel": "ATPCO",
+                "fare": {
+                  "validatingCarrierCode": "MH",
+                  "vita": true,
+                  "eTicketable": true,
+                  "lastTicketDate": "2025-07-12",
+                  "lastTicketTime": "20:00",
+                  "governingCarriers": "MH",
+                  "passengerInfoList": [
+                    {
+                      "passengerInfo": {
+                        "passengerType": "ADT",
+                        "passengerNumber": 2,
+                        "nonRefundable": false,
+                        "fareComponents": [
+                          {
+                            "ref": 7,
+                            "beginAirport": "DAC",
+                            "endAirport": "KUL",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "Y",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "ref": 9,
+                            "beginAirport": "KUL",
+                            "endAirport": "DOH",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "M",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "taxes": [
+                          { "ref": 13 },
+                          { "ref": 14 },
+                          { "ref": 11 },
+                          { "ref": 10 },
+                          { "ref": 8 },
+                          { "ref": 7 },
+                          { "ref": 3 },
+                          { "ref": 4 },
+                          { "ref": 5 }
+                        ],
+                        "taxSummaries": [
+                          { "ref": 14 },
+                          { "ref": 3 },
+                          { "ref": 11 },
+                          { "ref": 6 },
+                          { "ref": 4 },
+                          { "ref": 5 },
+                          { "ref": 13 },
+                          { "ref": 9 },
+                          { "ref": 8 }
+                        ],
+                        "currencyConversion": {
+                          "from": "USD",
+                          "to": "BDT",
+                          "exchangeRateUsed": 122.58
+                        },
+                        "passengerTotalFare": {
+                          "totalFare": 284591,
+                          "totalTaxAmount": 29747,
+                          "currency": "BDT",
+                          "baseFareAmount": 2079,
+                          "baseFareCurrency": "USD",
+                          "equivalentAmount": 254844,
+                          "equivalentCurrency": "BDT",
+                          "constructionAmount": 2078.73,
+                          "constructionCurrency": "NUC",
+                          "commissionPercentage": 0,
+                          "commissionAmount": 0,
+                          "exchangeRateOne": 1
+                        },
+                        "baggageInformation": [
+                          {
+                            "provisionType": "A",
+                            "airlineCode": "MH",
+                            "segments": [{ "id": 0 }, { "id": 1 }],
+                            "allowance": { "ref": 1 }
+                          }
+                        ],
+                        "penaltiesInfo": {
+                          "penalties": [
+                            {
+                              "type": "Exchange",
+                              "applicability": "Before",
+                              "changeable": true,
+                              "amount": 12258,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Exchange",
+                              "applicability": "After",
+                              "changeable": true,
+                              "amount": 12258,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "Before",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "After",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "passengerInfo": {
+                        "passengerType": "INF",
+                        "passengerNumber": 1,
+                        "nonRefundable": false,
+                        "fareComponents": [
+                          {
+                            "ref": 8,
+                            "beginAirport": "DAC",
+                            "endAirport": "KUL",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "Y",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "ref": 1,
+                            "beginAirport": "KUL",
+                            "endAirport": "DOH",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "M",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "taxes": [{ "ref": 12 }, { "ref": 8 }, { "ref": 7 }],
+                        "taxSummaries": [
+                          { "ref": 12 },
+                          { "ref": 9 },
+                          { "ref": 8 }
+                        ],
+                        "currencyConversion": {
+                          "from": "USD",
+                          "to": "BDT",
+                          "exchangeRateUsed": 122.58
+                        },
+                        "passengerTotalFare": {
+                          "totalFare": 31627,
+                          "totalTaxAmount": 2820,
+                          "currency": "BDT",
+                          "baseFareAmount": 235,
+                          "baseFareCurrency": "USD",
+                          "equivalentAmount": 28807,
+                          "equivalentCurrency": "BDT",
+                          "constructionAmount": 234.87,
+                          "constructionCurrency": "NUC",
+                          "commissionPercentage": 0,
+                          "commissionAmount": 0,
+                          "exchangeRateOne": 1
+                        },
+                        "baggageInformation": [
+                          {
+                            "provisionType": "A",
+                            "airlineCode": "MH",
+                            "segments": [{ "id": 0 }, { "id": 1 }],
+                            "allowance": { "ref": 5 }
+                          }
+                        ],
+                        "penaltiesInfo": {
+                          "penalties": [
+                            {
+                              "type": "Exchange",
+                              "applicability": "Before",
+                              "changeable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Exchange",
+                              "applicability": "After",
+                              "changeable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "Before",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "After",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
+                  "totalFare": {
+                    "totalPrice": 600809,
+                    "totalTaxAmount": 62314,
+                    "currency": "BDT",
+                    "baseFareAmount": 4393,
+                    "baseFareCurrency": "USD",
+                    "constructionAmount": 4392.33,
+                    "constructionCurrency": "NUC",
+                    "equivalentAmount": 538495,
+                    "equivalentCurrency": "BDT"
+                  }
+                }
+              },
+              {
+                "pricingSubsource": "MIP",
+                "distributionModel": "ATPCO",
+                "flexibleFare": 1,
+                "fare": {
+                  "validatingCarrierCode": "MH",
+                  "vita": true,
+                  "eTicketable": true,
+                  "lastTicketDate": "2025-07-12",
+                  "lastTicketTime": "20:00",
+                  "governingCarriers": "MH",
+                  "passengerInfoList": [
+                    {
+                      "passengerInfo": {
+                        "passengerType": "ADT",
+                        "passengerNumber": 2,
+                        "nonRefundable": false,
+                        "fareComponents": [
+                          {
+                            "ref": 7,
+                            "beginAirport": "DAC",
+                            "endAirport": "KUL",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "Y",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "ref": 9,
+                            "beginAirport": "KUL",
+                            "endAirport": "DOH",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "M",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "taxes": [
+                          { "ref": 13 },
+                          { "ref": 14 },
+                          { "ref": 11 },
+                          { "ref": 10 },
+                          { "ref": 8 },
+                          { "ref": 7 },
+                          { "ref": 3 },
+                          { "ref": 4 },
+                          { "ref": 5 }
+                        ],
+                        "taxSummaries": [
+                          { "ref": 14 },
+                          { "ref": 3 },
+                          { "ref": 11 },
+                          { "ref": 6 },
+                          { "ref": 4 },
+                          { "ref": 5 },
+                          { "ref": 13 },
+                          { "ref": 9 },
+                          { "ref": 8 }
+                        ],
+                        "currencyConversion": {
+                          "from": "USD",
+                          "to": "BDT",
+                          "exchangeRateUsed": 122.58
+                        },
+                        "passengerTotalFare": {
+                          "totalFare": 284591,
+                          "totalTaxAmount": 29747,
+                          "currency": "BDT",
+                          "baseFareAmount": 2079,
+                          "baseFareCurrency": "USD",
+                          "equivalentAmount": 254844,
+                          "equivalentCurrency": "BDT",
+                          "constructionAmount": 2078.73,
+                          "constructionCurrency": "NUC",
+                          "commissionPercentage": 0,
+                          "commissionAmount": 0,
+                          "exchangeRateOne": 1
+                        },
+                        "baggageInformation": [
+                          {
+                            "provisionType": "A",
+                            "airlineCode": "MH",
+                            "segments": [{ "id": 0 }, { "id": 1 }],
+                            "allowance": { "ref": 1 }
+                          }
+                        ],
+                        "penaltiesInfo": {
+                          "penalties": [
+                            {
+                              "type": "Exchange",
+                              "applicability": "Before",
+                              "changeable": true,
+                              "amount": 12258,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Exchange",
+                              "applicability": "After",
+                              "changeable": true,
+                              "amount": 12258,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "Before",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "After",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "passengerInfo": {
+                        "passengerType": "INF",
+                        "passengerNumber": 1,
+                        "nonRefundable": false,
+                        "fareComponents": [
+                          {
+                            "ref": 8,
+                            "beginAirport": "DAC",
+                            "endAirport": "KUL",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "Y",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "ref": 1,
+                            "beginAirport": "KUL",
+                            "endAirport": "DOH",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "M",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "taxes": [{ "ref": 12 }, { "ref": 8 }, { "ref": 7 }],
+                        "taxSummaries": [
+                          { "ref": 12 },
+                          { "ref": 9 },
+                          { "ref": 8 }
+                        ],
+                        "currencyConversion": {
+                          "from": "USD",
+                          "to": "BDT",
+                          "exchangeRateUsed": 122.58
+                        },
+                        "passengerTotalFare": {
+                          "totalFare": 31627,
+                          "totalTaxAmount": 2820,
+                          "currency": "BDT",
+                          "baseFareAmount": 235,
+                          "baseFareCurrency": "USD",
+                          "equivalentAmount": 28807,
+                          "equivalentCurrency": "BDT",
+                          "constructionAmount": 234.87,
+                          "constructionCurrency": "NUC",
+                          "commissionPercentage": 0,
+                          "commissionAmount": 0,
+                          "exchangeRateOne": 1
+                        },
+                        "baggageInformation": [
+                          {
+                            "provisionType": "A",
+                            "airlineCode": "MH",
+                            "segments": [{ "id": 0 }, { "id": 1 }],
+                            "allowance": { "ref": 5 }
+                          }
+                        ],
+                        "penaltiesInfo": {
+                          "penalties": [
+                            {
+                              "type": "Exchange",
+                              "applicability": "Before",
+                              "changeable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Exchange",
+                              "applicability": "After",
+                              "changeable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "Before",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            },
+                            {
+                              "type": "Refund",
+                              "applicability": "After",
+                              "refundable": true,
+                              "amount": 0,
+                              "currency": "BDT",
+                              "minPenalty": { "amount": 0, "currency": "BDT" }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
+                  "totalFare": {
+                    "totalPrice": 600809,
+                    "totalTaxAmount": 62314,
+                    "currency": "BDT",
+                    "baseFareAmount": 4393,
+                    "baseFareCurrency": "USD",
+                    "constructionAmount": 4392.33,
+                    "constructionCurrency": "NUC",
+                    "equivalentAmount": 538495,
+                    "equivalentCurrency": "BDT"
+                  }
+                }
+              },
+              {
+                "pricingSubsource": "MIP",
+                "distributionModel": "ATPCO",
+                "flexibleFare": 2,
+                "fare": {
+                  "validatingCarrierCode": "MH",
+                  "vita": true,
+                  "eTicketable": true,
+                  "lastTicketDate": "2025-07-12",
+                  "lastTicketTime": "20:00",
+                  "governingCarriers": "MH",
+                  "passengerInfoList": [
+                    {
+                      "passengerInfo": {
+                        "passengerType": "ADT",
+                        "passengerNumber": 2,
+                        "nonRefundable": false,
+                        "fareComponents": [
+                          {
+                            "ref": 7,
+                            "beginAirport": "DAC",
+                            "endAirport": "KUL",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "Y",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "ref": 9,
+                            "beginAirport": "KUL",
+                            "endAirport": "DOH",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "M",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "taxes": [
+                          { "ref": 13 },
+                          { "ref": 14 },
+                          { "ref": 11 },
+                          { "ref": 10 },
+                          { "ref": 8 },
+                          { "ref": 7 },
+                          { "ref": 3 },
+                          { "ref": 4 },
+                          { "ref": 5 }
+                        ],
+                        "taxSummaries": [
+                          { "ref": 14 },
+                          { "ref": 3 },
+                          { "ref": 11 },
+                          { "ref": 6 },
+                          { "ref": 4 },
+                          { "ref": 5 },
+                          { "ref": 13 },
+                          { "ref": 9 },
+                          { "ref": 8 }
+                        ],
+                        "currencyConversion": {
+                          "from": "USD",
+                          "to": "BDT",
+                          "exchangeRateUsed": 122.58
+                        },
+                        "passengerTotalFare": {
+                          "totalFare": 284591,
+                          "totalTaxAmount": 29747,
+                          "currency": "BDT",
+                          "baseFareAmount": 2079,
+                          "baseFareCurrency": "USD",
+                          "equivalentAmount": 254844,
+                          "equivalentCurrency": "BDT",
+                          "constructionAmount": 2078.73,
+                          "constructionCurrency": "NUC",
+                          "commissionPercentage": 0,
+                          "commissionAmount": 0,
+                          "exchangeRateOne": 1
+                        },
+                        "baggageInformation": [
+                          {
+                            "provisionType": "A",
+                            "airlineCode": "MH",
+                            "segments": [{ "id": 0 }, { "id": 1 }],
+                            "allowance": { "ref": 1 }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "passengerInfo": {
+                        "passengerType": "INF",
+                        "passengerNumber": 1,
+                        "nonRefundable": false,
+                        "fareComponents": [
+                          {
+                            "ref": 8,
+                            "beginAirport": "DAC",
+                            "endAirport": "KUL",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "Y",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "ref": 1,
+                            "beginAirport": "KUL",
+                            "endAirport": "DOH",
+                            "segments": [
+                              {
+                                "segment": {
+                                  "bookingCode": "M",
+                                  "cabinCode": "Y",
+                                  "mealCode": "M",
+                                  "seatsAvailable": 9,
+                                  "availabilityBreak": true,
+                                  "fareBreakPoint": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "taxes": [{ "ref": 12 }, { "ref": 8 }, { "ref": 7 }],
+                        "taxSummaries": [
+                          { "ref": 12 },
+                          { "ref": 9 },
+                          { "ref": 8 }
+                        ],
+                        "currencyConversion": {
+                          "from": "USD",
+                          "to": "BDT",
+                          "exchangeRateUsed": 122.58
+                        },
+                        "passengerTotalFare": {
+                          "totalFare": 31627,
+                          "totalTaxAmount": 2820,
+                          "currency": "BDT",
+                          "baseFareAmount": 235,
+                          "baseFareCurrency": "USD",
+                          "equivalentAmount": 28807,
+                          "equivalentCurrency": "BDT",
+                          "constructionAmount": 234.87,
+                          "constructionCurrency": "NUC",
+                          "commissionPercentage": 0,
+                          "commissionAmount": 0,
+                          "exchangeRateOne": 1
+                        },
+                        "baggageInformation": [
+                          {
+                            "provisionType": "A",
+                            "airlineCode": "MH",
+                            "segments": [{ "id": 0 }, { "id": 1 }],
+                            "allowance": { "ref": 5 }
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "totalFare": {
+                    "totalPrice": 600809,
+                    "totalTaxAmount": 62314,
+                    "currency": "BDT",
+                    "baseFareAmount": 4393,
+                    "baseFareCurrency": "USD",
+                    "constructionAmount": 4392.33,
+                    "constructionCurrency": "NUC",
+                    "equivalentAmount": 538495,
+                    "equivalentCurrency": "BDT"
+                  }
+                }
+              }
+            ],
+            "diversitySwapper": { "weighedPrice": 1149344.97 }
+          }
+        ]
+      }
+    ]
+  }
+}
